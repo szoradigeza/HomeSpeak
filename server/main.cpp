@@ -1,7 +1,10 @@
-#include <iostream>
-
 #include <QtCore/QCoreApplication>
 #include <QtCore/QCommandLineParser>
+
+#include <memory>
+#include <iostream>
+#include "core.h"
+
 
 int main(int argc, char *argv[]) {
     QCoreApplication app(argc, argv);
@@ -13,6 +16,7 @@ int main(int argc, char *argv[]) {
     parser.addHelpOption();
     parser.addVersionOption();
 
+    auto core = std::make_unique<Core>();
 
     return 0;
 }
