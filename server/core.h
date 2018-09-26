@@ -1,7 +1,12 @@
 #pragma once
 
-class Core {
+#include "tcpserver.h"
 
+class Core {
+public:
+    Core();
+    ~Core();
+    TcpServer *tcpServer;
 };
 
 
