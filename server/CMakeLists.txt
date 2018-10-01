@@ -8,8 +8,9 @@ set(CMAKE_AUTOMOC ON)
 
 find_package(Qt5Widgets HINTS ~/Qt/5.11.1/gcc_64/)
 find_package(Qt5Sql HINTS ~/Qt/5.11.1/gcc_64)
+find_package(Qt5Network HINTS ~/Qt/5.11.1/gcc_64)
 
 add_executable(server main.cpp core.cpp core.h dbmanager.cpp dbmanager.h tcpserver.cpp tcpserver.h)
 
 # linking
-target_link_libraries(server Qt5::Widgets Qt5::Sql)
+target_link_libraries(server Qt5::Widgets Qt5::Sql Qt5::Network)
