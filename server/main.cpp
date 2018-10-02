@@ -18,5 +18,5 @@ int main(int argc, char *argv[]) {
 
     auto core = std::make_unique<Core>();
 
-    return 0;
+    return app.exec();
 }

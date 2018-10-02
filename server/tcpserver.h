@@ -1,26 +1,22 @@
 #pragma once
 
-#include <QtWidgets/QDialog>
-#include <QtWidgets/QWidget>
-#include <QtWidgets/QLabel>
+#include <QObject>
+#include <QTcpServer>
+#include <QTcpSocket>
+#include <QDebug>
 
-class QLabel;
-class QTcpServer;
-class QNetworkSession;
-
-class TcpServer : public QDialog {
+class TcpServer : public QObject {
     Q_OBJECT
 
 public:
-    TcpServer(QWidget * parent = nullptr);
+    explicit TcpServer(QObject * parent = nullptr);
+    ~TcpServer();
+
+signals:
 
 public slots:
-    void sessionOpened();
-    void sendFortune();
+    void newConnection_slot();
 
 private:
-    QLabel *statusLabel = nullptr;
-    QTcpServer *tcpServer = nullptr;
-    QVector<QString> fortunes;
-    QNetworkSession *networkSession = nullptr;
+    QTcpServer *server = nullptr;
 };
