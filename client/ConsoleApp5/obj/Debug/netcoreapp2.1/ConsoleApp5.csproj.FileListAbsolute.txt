@@ -1,0 +1,11 @@
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.deps.json
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.runtimeconfig.json
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.runtimeconfig.dev.json
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.dll
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.pdb
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.csprojAssemblyReference.cache
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.AssemblyInfoInputs.cache
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.AssemblyInfo.cs
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.dll
+C:\Users\Geza\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.pdb
